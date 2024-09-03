@@ -1,5 +1,4 @@
-\# Medical Prescription Analysis with OCR and NER
-
+**Medical Prescription Analysis with OCR and NER**
 This project is designed to extract information from medical
 prescription images using Optical Character Recognition (OCR) and Named
 Entity Recognition (NER). It aims to extract patient names and medicine
@@ -7,21 +6,23 @@ names from prescription images, and perform additional analysis such as
 finding generic and brand names of medicines, and providing descriptions
 of medicines using external APIs.
 
-\## Table of Contents - \[Features\](#features) -
-\[Requirements\](#requirements) - \[Setup
-Instructions\](#setup-instructions) - \[Usage\](#usage) - \[Code
-Overview\](#code-overview) - \[Troubleshooting\](#troubleshooting) -
+Table of Contents 
+\[Features\](#features)
+\[Requirements\](#requirements) 
+\[Setup Instructions\](#setup-instructions)  
+\[Usage\](#usage)  
+\[Code Overview\](#code-overview)  
+\[Troubleshooting\](#troubleshooting) -
 \[Contributing\](#contributing)
 
-\## Features - \*\*OCR with PaddleOCR:\*\* Extracts text from medical
-prescription images. - \*\*NER with spaCy:\*\* Identifies medicine names
-and patient names in the extracted text. - \*\*Data Extraction:\*\*
-Extracts medicine and patient names using regular expressions. -
-\*\*Data Storage:\*\* Saves extracted data into text files. - \*\*API
-Integration:\*\* Fetches medicine descriptions from Wikipedia using its
-API. - \*\*Validation:\*\* Checks if given names are generic or brand
-names using a CSV dataset. - \*\*Accuracy Reporting:\*\* Reports the
-accuracy of extracting brand names and descriptions.
+Features - 
+\*\*OCR with PaddleOCR:\*\* Extracts text from medical prescription images. 
+\*\*NER with spaCy:\*\* Identifies medicine names and patient names in the extracted text. 
+\*\*Data Extraction:\*\* Extracts medicine and patient names using regular expressions. -
+\*\*Data Storage:\*\* Saves extracted data into text files.
+\*\*API Integration:\*\* Fetches medicine descriptions from Wikipedia using its API. 
+\*\*Validation:\*\* Checks if given names are generic or brand names using a CSV dataset. -
+\*\*Accuracy Reporting:\*\* Reports the accuracy of extracting brand names and descriptions.
 
 \## Requirements - Python 3.7 or higher - Required Python libraries:  -
 \`paddlepaddle\`  - \`paddleocr\`  - \`opencv-python\`  - \`pandas\`  -
